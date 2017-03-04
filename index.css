@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('fonts/naamvanmijfont.eot'); /* IE9 Compat Modes */
+  src: url('fonts/naamvanmijfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/naamvanmijfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/naamvanmijfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/naamvanmijfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/naamvanmijfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+
+body,
+html {
+	margin:0;
+	padding:0; 
+}
+
+.ubercontainer {
+	height:100vh; 
+	margin: auto;
+}
+	
+#container {
+	width: 10000%;
+	overflow: hidden;
+	margin: 0 auto;
+	
+	height:80vh;
+}
+	
+.photobanner {
+	height: 100%;
+} 
+
+.photobanner img {
+	height:100%;
+}
+
+
+.info {
+	padding:4px 10px 4px 10px; 
+	font-size: 14px;
+	font-family: 'MyWebFont', Helvetica, sans-serif;
+
+}
+
+
+h1 {
+    margin:0;
+	padding:0;
+}
+p {
+    margin:0;
+	padding:0;
+}
+
+
+
+
+
+
+
+.beelden img {
+	height:75vh;
+	}
+
+
+/*keyframe animations*/
+.first {
+	-webkit-animation: bannermove 10s linear infinite;
+	   -moz-animation: bannermove 10s linear infinite;
+	    -ms-animation: bannermove 10s linear infinite;
+	     -o-animation: bannermove 10s linear infinite;
+	        animation: bannermove 10s linear infinite;
+}
+ 
+@keyframes "bannermove" {
+ 0% {
+    margin-left: 0px;
+ }
+ 100% {
+    margin-left: -2125px;
+ }
+ 
+}
+ 
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+ 
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -10000%;
+ }
+ 
+}
+ 
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2125px;
+ }
+ 
+}
+
+
+
+
+@media screen and (max-width: 768 px) {
+    .photobanner {
+		height: 200px;
+	} 
+	h1 {
+		color:red;
+	}
+}
