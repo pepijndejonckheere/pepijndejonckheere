@@ -1,15 +1,6 @@
 @charset "UTF-8";
 
 
-@font-face {
-  font-family: 'MyWebFont';
-  src: url('fonts/naamvanmijfont.eot'); /* IE9 Compat Modes */
-  src: url('fonts/naamvanmijfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('fonts/naamvanmijfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('fonts/naamvanmijfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('fonts/naamvanmijfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('fonts/naamvanmijfont.svg#svgFontName') format('svg'); /* Legacy iOS */
-}
 
 
 body,
@@ -43,7 +34,7 @@ html {
 .info {
 	padding:4px 10px 4px 10px; 
 	font-size: 14px;
-	font-family: 'MyWebFont', Helvetica, sans-serif;
+	font-family: 'Permanent Marker', cursive;
 
 }
 
