@@ -1,8 +1,6 @@
 @charset "UTF-8";
 
 
-
-
 body,
 html {
 	margin:0;
@@ -35,45 +33,38 @@ html {
 	padding:4px 10px 4px 10px; 
 	font-size: 14px;
 	font-family: 'Permanent Marker', cursive;
-
 }
 
 
 h1 {
     margin:0;
 	padding:0;
+	text-align:center
 }
 p {
     margin:0;
 	padding:0;
+	text-align:center
 }
-
-
-
-
-
 
 
 .beelden img {
 	height:75vh;
+	
 	}
 
 
 /*keyframe animations*/
 .first {
 	-webkit-animation: bannermove 10s linear infinite;
-	   -moz-animation: bannermove 10s linear infinite;
-	    -ms-animation: bannermove 10s linear infinite;
-	     -o-animation: bannermove 10s linear infinite;
-	        animation: bannermove 10s linear infinite;
-}
+	   
  
 @keyframes "bannermove" {
  0% {
     margin-left: 0px;
  }
  100% {
-    margin-left: -2125px;
+    margin-left: -10000px;
  }
  
 }
@@ -83,7 +74,7 @@ p {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -10000px;
  }
  
 }
@@ -93,7 +84,7 @@ p {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -10000px;
  }
  
 }
@@ -113,7 +104,7 @@ p {
    margin-left: 0px;
  }
  100% {
-   margin-left: -2125px;
+   margin-left: -10000px;
  }
  
 }
