@@ -16,8 +16,8 @@ html {
 	margin: auto;
 }
 	
-#container {
-	width: 20000%;
+#containerrondfotobanner {
+	width: 30000%;
 	overflow: hidden;
 	margin: 0 auto;
 	height:80vh;
@@ -79,7 +79,7 @@ html {
    margin-left: 0px;
  }
  100% {
-   margin-left: -30000px%;
+   margin-left: -30000%;
  }
  
 }
@@ -89,7 +89,7 @@ html {
    margin-left: 0px;
  }
  100% {
-   margin-left: -3000000px;
+   margin-left: -300000px;
  }
  
 }
