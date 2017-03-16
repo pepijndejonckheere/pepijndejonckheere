@@ -1,138 +1,92 @@
-@charset "UTF-8";
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Pepijn</title>
+<link href="index.css" rel="stylesheet" type="text/css">
 
-@font-face{
-    font-family: "a gothic";
-    src: url('a gothic rond .otf');
-}
+</head>
 
-body,
-html {
-	margin:0;
-	padding:0; 
-}
+<body>
 
-.beginscherm {
-	height:100vh; 
-	margin: auto;
-}
-	
-#containerrondfotobanner {
-	width: 30000%;
-	overflow: hidden;
-	margin: 0 auto;
-	height:80vh;
-}
-	
-.photobanner {
-	height: 80vh;
-} 
+<div class="beginscherm">
 
+    <div id="containerrondfotobanner">
+      
+        <div class="photobanner">
+            <img class="first" src="logo1.png" alt="" />
+       		<img src="logo2.png" alt="2"/>
+        	<img src="logo3.png" alt="3"/>
+        	<img src="logo4.png" alt="4"/>
+        	<img src="logo5.png" alt="5"/>
+        	<img src="logo6.png" alt="6"/>
+        	<img src="logo7.png" alt="7"/> 
+        	<img src="logo8.png" alt="8"/> 
+        	<img src="logo9.png" alt="9"/>
+            <img src="logo10.png" alt="10"/>
+            <img src="logo11.png" alt="11"/>
+            <img src="logo12.png" alt="12"/>
+            <img src="logo13.png" alt="13"/> 
+            <img src="logo14.png" alt="14"/>
+            <img src="logo15.png" alt="15"/>
+            <img src="logo16.png" alt="15"/>
+            <img src="logo17.png" alt="15"/>
+            <img src="logo18.png" alt="15"/>
+            <img src="logo19.png" alt="15"/>
+            <img src="logo20.png" alt="15"/>
+            <img src="logo21.png" alt="15"/>
+            <img src="logo22.png" alt="15"/>
+            <img src="logo23.png" alt="15"/>
+            <img src="logo24.png" alt="15"/>
+            <img src="logo25.png" alt="15"/>
+            <img src="logo26.png" alt="15"/>
+            <img src="logo27.png" alt="15"/>
+            <img src="logo28.png" alt="15"/>
+            
+            
+        </div><!-- photobanner -->
+        
+    </div><!-- containerrondfotobanner -->
 
-.photobanner img {
-	height:80vh;
-}
+	<div class="info">
+    	<h1>Pepijn De Jonckheere</h1>
+		<p>contact: <a href="mailto:pepijndejonckheere@me.com">pepijndejonckheere@me.com</a></p>
+	</div><!-- info -->
+    
+</div><!-- beginscherm -->
 
+<div class="beelden">
+	<img src="art-book-fair-1.jpg" alt="art-book-fair-1"/>
+	<img src="art-book-fair-2.jpg" alt="art-book-fair-2"/>
+    <img src="1.gif" alt="gif"/>
+    <img src="boekpepijn.gif" alt="pepijnboek.gif"/>
+    <img src="wow1.jpg" alt="wow1"/> 
+    <img src="donko.png" alt="donko"/>
+    <img src="di11okt.png"  alt="11 okt"/>
+    <img src="Tekst.png"  alt="tekst donko"/>
+    <img src="Donkofoto.jpg" alt="donko foto"/>
+    <img src="auteursrecht1.jpg"  alt="auteursrecht1"/>
+    <img src="auteursrecht2.jpg"  alt="auteursrecht1"/>
+    <img src="auteursrecht.gif" alt=""/>
+    <img src="L'enfer.jpg"  alt="l'enfer"/>
+    <img src="poster-boekL'enfer.gif" alt="poster-boekL'enfer.gif"/>
+	<img src="AFistFulOfDollars.jpg"  alt="AFistFulOfDollars"/>
+	<img src="TheGoodTheBadAndTheUgly.jpg"  alt="TheGoodTheBadAndTheUgly"/>
+	<img src="AFistfulOfDynamite.jpg"  alt="AFistfulOfDynamite"/>
+    <img src="ezgif.com-optimize.gif"  alt="ezgif.com-optimize.gif"/> 
+    <img src="legomannetjes.png"  alt="legomannetjes"/>
+    <img src="konijnen-4961x7382-38-2000x2976-82-2000x2976-52.jpg" alt="konijnen"/>
+    <img src="mg-8267-3467x4767-75-2000x2750-73-2000x2750-18.jpg"  alt="konijnenfoto"/>
+    <img src="hetlot1.jpg"  alt=""/> 
+    <img src="hetlot2.jpg"  alt=""/> 
+    <img src="hetlot.gif" alt=""/>
+    <img src="ruimte3.png" alt="ruimte3"/>
+    <img src="ruimte4.png" alt="ruimte4"/>
+    <img src="sintlucadag.png" alt="sintlucadag"/>
+    <img src="`677.png"  alt="`677"/>
+    <img src="mg-8502-3744x5616-12-2000x3000-92.jpg"  alt="tekening skelet"/>
+    
+     </div><!-- beelden -->
 
-
-/*keyframe animations*/
-.first {
-	-webkit-animation: bannermove 50s linear infinite;
-	   -moz-animation: bannermove 50s linear infinite;
-	    -ms-animation: bannermove 50s linear infinite;
-	     -o-animation: bannermove 50s linear infinite;
-	        animation: bannermove 50s linear infinite;
-}
-	   
- 
-@keyframes "bannermove" {
- 0% {
-    margin-left: 0px;
- }
- 100% {
-    margin-left: -30000px;
- }
- 
-}
- 
-@-moz-keyframes bannermove {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -30000px;
- }
- 
-}
- 
-@-webkit-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -30000px;
- }
- 
-}
- 
-@-ms-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -30000%;
- }
- 
-}
- 
-@-o-keyframes "bannermove" {
- 0% {
-   margin-left: 0px;
- }
- 100% {
-   margin-left: -300000px;
- }
- 
-}
-
-.info {
-	padding:4vh, 5vw, 10vh, 5vW; 
-	font-size: 4vh;
-	font-family:'a gothic';
-}
-
-
-h1 {
-    margin:0;
-	padding:0;
-	text-align:center
-}
-p {
-    margin:0;
-	padding:0;
-	text-align:center
-}
-
-.beelden img {
-	height:75vh;
-    margin: auto;
-	}
-
-@media screen and (max-width: 1280 px) {
-    .photobanner {
-		height: 200px;
-	} 
-	h1 {color: red;
-		font-size: 20%;
-		
-	}
-}
-
-@media screen and (max-width: 768 px) {
-    .photobanner {
-		height: 200px;
-	} 
-	h1 {
-		font-size: 200%;
-		
-	}
-}
+</body>
+</html>
