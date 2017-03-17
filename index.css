@@ -20,7 +20,7 @@ html {
 }
 	
 #containerrondfotobanner {
-	width: 30000%;
+	width: 30030%;
 	overflow: hidden;
 	margin: 0 auto;
 	height:80vh;
@@ -29,7 +29,7 @@ html {
 	
 .photobanner {
 	height: 80vh;
-	column-fill:red;
+	
 	
 } 
 
@@ -40,11 +40,11 @@ html {
 
 /*keyframe animations*/
 .first {
-	-webkit-animation: bannermove 50s linear infinite;
-	   -moz-animation: bannermove 50s linear infinite;
-	    -ms-animation: bannermove 50s linear infinite;
-	     -o-animation: bannermove 50s linear infinite;
-	        animation: bannermove 50s linear infinite;
+	-webkit-animation: bannermove 70s linear infinite;
+	   -moz-animation: bannermove 70s linear infinite;
+	    -ms-animation: bannermove 70s linear infinite;
+	     -o-animation: bannermove 70s linear infinite;
+	        animation: bannermove 70s linear infinite;
 }
 	   
  
@@ -53,7 +53,7 @@ html {
     margin-left: 0px;
  }
  100% {
-    margin-left: -30000px;
+    margin-left: -34000px;
  }
  
 }
@@ -63,7 +63,7 @@ html {
    margin-left: 0px;
  }
  100% {
-   margin-left: -30000px;
+   margin-left: -34000px;
  }
  
 }
@@ -73,7 +73,7 @@ html {
    margin-left: 0px;
  }
  100% {
-   margin-left: -30000px;
+   margin-left: -34000px;
  }
  
 }
@@ -83,7 +83,7 @@ html {
    margin-left: 0px;
  }
  100% {
-   margin-left: -30000%;
+   margin-left: -34000%;
  }
  
 }
@@ -93,7 +93,7 @@ html {
    margin-left: 0px;
  }
  100% {
-   margin-left: -300000px;
+   margin-left: -34000px;
  }
  
 }
