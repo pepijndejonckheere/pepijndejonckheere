@@ -122,6 +122,12 @@ p {
     margin-right: auto;
 	}
 
+.drawings img {
+	height:auto;
+	margin-left: auto;
+    margin-right: auto;
+	}
+
 @media screen and (max-width: 1280 px) {
     .photobanner {
 		height: 200px;
