@@ -118,23 +118,24 @@ p {
 
 .beelden img {
 	height:75vh;
-	margin-left: auto;
-    margin-right: auto;
+
+    margin-left: auto;
+    margin-right: auto
 	}
 
-.drawings img {
-	height:auto;
-	margin-left: auto;
-    margin-right: auto;
-	}
+.tekeningen img {
+	max-height:90vh;
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	}	
+}
 
 @media screen and (max-width: 1280 px) {
     .photobanner {
 		height: 200px;
 	} 
-	h1 {color: red;
-		font-size: 20%;
-		
+	h1 {font-size: 20%;
 	}
 }
 
@@ -142,8 +143,14 @@ p {
     .photobanner {
 		height: 200px;
 	} 
-	h1 {
-		font-size: 200%;
-		
+	h1 {font-size: 200%;
+	}
+}
+@media screen and (max-width: 1280 px) {
+    .drawings {
+		height: 200px;
+		width: fit;
+	} 
+	h1 {font-size: 20%;
 	}
 }
