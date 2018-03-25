@@ -153,3 +153,27 @@ p {
 	h1 {font-size: 20%;
 	}
 }
+
+
+
+
+.grid-item {
+ 
+}
+
+.grid-item img {
+  width:33vw;
+}
+
+.grid-item > * {
+  margin: ;
+  padding: vw;
+}
+.grid-sizer {
+	width:1vw;
+}
+
+
+
+
+
